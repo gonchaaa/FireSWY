@@ -1,13 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.border{
+  border: 1px solid rgba(25, 26, 35, 1);
+}
+.border2{
+  border: 2px solid rgba(25, 26, 35, 1);
+}
+.background{
+  background-color: rgba(255, 154, 0, 1);
+}
+.background-dark{
+  background-color: rgba(25, 26, 35, 1);
+}
+.back-color-dark{
+  background-color:rgba(41, 42, 50, 1);
+}
+.background-light{
+  background-color: rgba(243, 243, 243, 1);
+}
+.swiper-pagination-bullet-active{
+  background-color: rgba(255, 154, 0, 1) !important;
+}
+.text-color{
+  color:rgba(255, 154, 0, 1);
+}
+
+table {
+  color:white;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+.common p{
+display:none;
+}
+.common li.open p{
+  display:block;
+}
+.box{
+  cursor:pointer; 
+}
+.box span{
+  display:inline-block;
+  margin-right:10px;
+}
+
+
+@keyframes fadeIn {
+  0%,100% {
+    transform: translateY(0); 
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes fadeInRight {
+  0%,100% {
+    transform: translateX(0); 
+  }
+  50% {
+    transform: translateX(-5px);
+  }
+}
+
+
+@keyframes fireUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.fireUpDown {
+  animation: fireUpDown 1s infinite;
+}
+
+.fadeIn {
+  animation: fadeIn 0.5s ease-in-out infinite;
+}
+
+.fadeInRight {
+  animation: fadeInRight 0.7s ease-in-out infinite;
+}
+
+.transition{
+  transition: all 0.5s ease-in-out;
+}
+
+.table-container {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+.table-container.show {
+  max-height: 1000px;
+  transition: max-height 0.5s ease-in;
+}
+
+.bg-risk-image {
+  background-image: url('./assets/riskimage1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.menu-transition {
+  transition: left 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.scroll-button {
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
