@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/FireSWY/static/css/main.418bdc26.css",
+    "main.js": "/FireSWY/static/js/main.d2f73d54.js",
+    "static/media/initPhoto.png": "/FireSWY/static/media/initPhoto.7e181b6b05edde5098f0.png",
+    "static/media/firefighters-115800_1280.jpg": "/FireSWY/static/media/firefighters-115800_1280.57d0a511413ab82112fa.jpg",
+    "static/media/fire-blanket6.jpg": "/FireSWY/static/media/fire-blanket6.0bc6211ac11b1018a520.jpg",
+    "static/media/riskimage1.jpg": "/FireSWY/static/media/riskimage1.fa33373a83dad12f887a.jpg",
+    "static/media/fire.webp": "/FireSWY/static/media/fire.f588d8a1d726b8af751f.webp",
+    "static/media/fire-blanket (1).png": "/FireSWY/static/media/fire-blanket (1).32694aefb34cd51d971e.png",
+    "static/media/Fire-Rating.png": "/FireSWY/static/media/Fire-Rating.9b87b2f2cf3e374038ed.png",
+    "static/media/fire-blanket3.webp": "/FireSWY/static/media/fire-blanket3.1eb250f75aeed06ab9e3.webp",
+    "static/media/fire-blanket2 (2).png": "/FireSWY/static/media/fire-blanket2 (2).700635b62dbb658118b0.png",
+    "static/media/fireblanket5.jpeg": "/FireSWY/static/media/fireblanket5.a64f27ddf40dc8cb3eaf.jpeg",
+    "static/media/table-fire.jpg": "/FireSWY/static/media/table-fire.d2b4c14a70c49605d07d.jpg",
+    "static/media/fire-blanket4.webp": "/FireSWY/static/media/fire-blanket4.3f8c19a0b862379ea9ef.webp",
+    "static/media/home1.jpg": "/FireSWY/static/media/home1.5b6dd4c7f81e446f5af2.jpg",
+    "static/media/susceptibility.jpg": "/FireSWY/static/media/susceptibility.4235b3329f47dc27fed4.jpg",
+    "static/media/likelihood.jpg": "/FireSWY/static/media/likelihood.9984b5d814fbe57a83e3.jpg",
+    "static/media/fire-blanket7.png": "/FireSWY/static/media/fire-blanket7.a33dd6804ac254e4b042.png",
+    "static/media/intensity.jpg": "/FireSWY/static/media/intensity.7b38b6c2c04883404c34.jpg",
+    "static/media/exposure.jpg": "/FireSWY/static/media/exposure.aa7d0fbd4a8227191877.jpg",
+    "static/media/whtReduce-600x600.png": "/FireSWY/static/media/whtReduce-600x600.3649df25d5a7de6af707.png",
+    "static/media/whtUnderstand-600x600.png": "/FireSWY/static/media/whtUnderstand-600x600.8fa015cc86c8c2f5130b.png",
+    "static/media/Risk_Hazard_Vulnerability-1536x165.jpg": "/FireSWY/static/media/Risk_Hazard_Vulnerability-1536x165.5242f9a6f08095c47196.jpg",
+    "index.html": "/FireSWY/index.html",
+    "main.418bdc26.css.map": "/FireSWY/static/css/main.418bdc26.css.map",
+    "main.d2f73d54.js.map": "/FireSWY/static/js/main.d2f73d54.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.418bdc26.css",
+    "static/js/main.d2f73d54.js"
+  ]
+}
